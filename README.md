@@ -8,7 +8,7 @@ A Responsive HTML5, CSS3 Project.
 
 <h2>Screen Gif</h2>
 
-[](/images/project2.gif)
+![](/images/project2.gif)
 <br>
 
-[](/images/project.gif)
+![](/images/project.gif)
