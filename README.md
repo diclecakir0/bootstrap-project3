@@ -4,7 +4,7 @@
 
 <h2>Used Technologies</h2>	
 
-A Responsive HTML5, CSS3 Project.
+A Responsive HTML5, CSS3, Bootstrap Project.
 
 <h2>Screen Gif</h2>
 
