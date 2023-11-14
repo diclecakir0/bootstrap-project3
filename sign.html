@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=æ, initial-scale=1.0">
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="/style.css">
+	<title>Bootstrap-Project</title>
+	<style>
+		body{
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+		}
+		.main-content{
+			flex: 1;
+		}
+	</style>
+</head>
+<body>
+		<!--! END HEADER -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark ">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="/index.html"><img src="/images/logo.png" style="height: 80px; margin-left:15px;" alt=""></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/blog.html">Link</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="/sign.html">Sign in</a>
+				  </li>
+				</ul>
+				<form class="d-flex" role="search">
+				  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+			  </div>
+			</div>
+		  </nav>
+		  <!--! END HEADER-->
+
+		  <!--! MAIN CONTENT -->
+		  <div class="container d-flex justify-content-center align-items-center main-content">
+			<form class="border shadow rounded p-4">
+				<div class="mb-3">
+					<label class="form-label">Email Address</label>
+					<input class="form-control" type="text">
+				</div>
+				<div class="form-text mb-3">Do not share your information with anyone</div>
+				<div class="mb-3">
+					<label class="form-label">Email Address</label>
+					<input class="form-control" type="text">
+				</div>
+				<div class="mb-3 d-flex gap-3">
+					<input class="form-check mt-1" type="checkbox">
+					<label class="form-label ">show password</label>
+				</div>
+				
+				<button type="button" class="bn30 btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign in</button>
+			</form>
+		  </div>
+		  <!--! END MAIN CONTENT -->
+
+
+		  <!--!FOOTER-->
+		  <div class="container">
+			<footer class="d-flex justify-content-between border-top my-5 pt-3">
+				<p> &copy; all rights reserved</p>
+				<div class="d-flex gap-3">
+					<a class="nav-link" href="/index.html">Home</a>
+					<a class="nav-link" href="/blog.html">Blog</a>
+					<a class="nav-link" href="/sign.html">Sing in</a>
+				</div>
+			</footer>
+		  </div>
+		  <!--! END FOOTER-->
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+</body>
+</html>
